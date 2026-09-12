@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "PKG-021",
+  "slug": "aws-dataeng",
+  "name": "sovereign-aws-dataeng",
+  "domain": "Cloud Data Engineering & ETL",
+  "version": "1.0.0",
+  "status": "PRODUCTION_READY",
+  "entrypoint": "src/core.py",
+  "cli_command": "sovereign-aws-dataeng",
+  "microservice_port": 8801,
+  "n8n_webhook_path": "aws-dataeng-trigger",
+  "n8n_workflow": "n8n/workflow.json",
+  "test_suite": "tests/test_solution.py",
+  "author": "Russell Alan Powers",
+  "license": "MIT"
+}
